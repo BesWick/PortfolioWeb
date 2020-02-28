@@ -614,9 +614,10 @@
                     </h5>
                   </div>
                   <div>
-                      <form name="contact" action = "" method="post" role="form" class="contactForm" data-netlify="true">
+                      <form name="contact" method="post" role="form" class="contactForm" data-netlify="true" netlify-honeypot="bot-field">
                       <div id="sendmessage">Your message has been sent. Thank you!</div>
                       <div id="errormessage"></div>
+                      <input type="hidden" name ="bot-field" >
                       <div class="row">
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
@@ -699,7 +700,7 @@
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <script src="lib/typed/typed.min.js"></script>
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  <!-- <script src="contactform/contactform.js"></script> -->
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
