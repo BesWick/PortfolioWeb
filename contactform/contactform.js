@@ -94,12 +94,12 @@ jQuery(document).ready(function($) {
     // if( ! action ) {
     //   action = 'contactform/contactform.php';
     // }
-    $.ajax({
-      type: "POST",
-      url: action,
-      data: str,
+    // $.ajax({
+    //   type: "POST",
+    //   url: action,
+    //   data: str,
      
-    });
+    // });
     return false;
   });
 
