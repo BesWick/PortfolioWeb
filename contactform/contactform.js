@@ -95,7 +95,7 @@ jQuery(document).ready(function($) {
     //   action = 'contactform/contactform.php';
     // }
     fetch('/', {
-      method: "get",
+     
     })
     .then(() =>{
       $("#sendmessage").addClass("show");
@@ -106,7 +106,7 @@ jQuery(document).ready(function($) {
       $("#sendmessage").removeClass("show");
       $("#errormessage").addClass("show");
       $('#errormessage').html(err);
-      console.log('error is: ',err)
+      console.log('error is: '.err)
     })
     
     return false;
