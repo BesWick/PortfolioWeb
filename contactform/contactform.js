@@ -95,8 +95,7 @@ jQuery(document).ready(function($) {
     //   action = 'contactform/contactform.php';
     // }
     fetch('/', {
-      method: "POST",
-      body: str,
+      method: "get",
     })
     .then(() =>{
       $("#sendmessage").addClass("show");
